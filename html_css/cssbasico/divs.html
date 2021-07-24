@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divs</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        div {
+            display: inline-block;
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+            box-shadow: 3px 3px 10px rgba(173, 216, 230, 0.747);
+            border-radius: 5px;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover {
+            background-color: lightcoral;
+            color: darkred;
+        }
+
+        div:hover > p {
+            display: block;
+            font-weight: bold;
+            color: white;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>01</div>
+    <div>02</div>
+    <div>03</div>
+    <br>
+    <h1>Passe o mouse no texto abaixo</h1>
+    <div>
+        passe o mouse aqui
+        <p><a href="index.html">TEXTO ESCONDIDO</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#options {
+    padding: 10px;
+}
+#tela {
+    width: 700px;
+    height: 500px;
+    border: 1px solid;
+}
+/*
+#tam2 {
+    width: 15px;
+    height: 15px;
+}
+#tam3 {
+    width: 20px;
+    height: 20px;
+}*/

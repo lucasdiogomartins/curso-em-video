@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+    <title>Sáytch</title>
+    <style>
+        body{
+            background-color: plum;
+        }
+        h1 {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Audios</h1>
+    <audio preload="metadata" src="audio/E Minor Prelude - Chopin.mp3" controls loop></audio>
+    <audio controls>
+        <source src="audio/E Minor Prelude - Chopin.mp3" type="">
+        <p>infelismente seu navegador não consegue reproduzir audio</p>
+    </audio>
+    <!--
+        preload:
+    auto == carregar audio todo antes de exibir a pagina (não recomendado)
+    metadata == carregar algumas informações do audio
+    none == não carregar nada do audio até que o usuário queira
+
+        autoplay == tocar sozinho
+        controls == mostrar controles do player na pag
+        loop == repetir o audio quando terminar-->
+
+    <h1>Videos</h1>
+    <video src="video/yt1s.com - RECRUTA CANTANDO A ABERTURA MAIS TOP DO NARUTO PRA TROPA.mp4" width="500px" controls poster="video/ednaldopoze.jpg"></video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/973RPBuxAcU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1 style="color:blue">CSS Inline</h1>
+    <p style="font-family: Arial, Helvetica, sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tempora ipsum, ipsa sint corrupti, fugit molestiae, minus doloribus praesentium odio fuga. Hic quidem natus autem enim inventore odio eveniet reprehenderit!</p>
+
+    <br>
+    <h1><a href="../index.html">Voltar</a></h1>
+</body>
+</html>

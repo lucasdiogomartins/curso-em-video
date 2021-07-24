@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>
+        NUMBER ANALYZER
+    </h1></header>
+    <section>
+        <div>
+            Numero (entre 1 e 100):
+            <input type="number" name="txtn" id="txtn">
+            <input type="button" value="Adicionar" onclick="adicionar()">
+            <br><br><select name="seltab" id="seltab" size='6'></select>
+            <br><input type="button" value="Finalizar" onclick="finalizar()">
+        </div>
+        <div id='res'></div>
+    </section>
+    <footer>@acsulogoid</footer>
+    <script src="analizer.js"></script>
+</body>
+</html>

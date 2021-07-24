@@ -1,0 +1,6 @@
+n = int(input('Type a number: '))
+print('o sucessor de {} é {}, e seu antecessor é {}'.format(n, n+1, n-1))
+print('O dobro de {} vale {}'.format(n, n*2))
+print('o triplo de {} vale {}'.format(n, n*3))
+print('o quadrado de {} vale {}'.format(n, pow(n, 2)))
+print('a raiz quadrada de {} é igual a {:.2f}'.format(n, n**(1/2)))

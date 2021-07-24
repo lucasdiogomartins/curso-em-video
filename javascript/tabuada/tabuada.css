@@ -1,0 +1,29 @@
+body {
+    background: cadetblue;
+    font: normal 15pt Arial;
+}
+header {
+    font: bold 25pt Arial;
+    color: snow;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.400);
+}
+section {
+    background: snow;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.400);
+}
+div {
+    padding: 15px;
+}
+footer {
+    color: snow;
+    text-align: center;
+    font-style: italic;
+    padding: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.400);
+}
