@@ -3,7 +3,7 @@
 @font-face {
   font-family: Android;
   src: url("../fontes/idroid.otf") format("opentype");
-  font-weight: normal;
+  font-weight: bold;
 }
 
 :root {
@@ -38,7 +38,7 @@ header {
 
 header > h1 {
   color: white;
-  font: normal 3em var(--fonte-destaque);
+  font: normal 3.5em var(--fonte-destaque);
   margin-bottom: 20px;
   text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.6);
 }
@@ -47,7 +47,7 @@ header > p {
   font: 1.2em var(--fonte-padrao);
   color: white;
   max-width: 550px;
-  padding: 10px;
+  padding-bottom: 20px;
   margin: auto;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
 }
@@ -60,7 +60,7 @@ nav {
 
 nav > a {
   padding: 10px;
-  color: white;
+  color: var(--cor1);
   border-radius: 5px;
   font: bold 1em var(--fonte-padrao);
   text-decoration: none;
@@ -84,7 +84,7 @@ main {
 
 main h1 {
   color: var(--cor3);
-  font: bold 2em var(--fonte-android);
+  font: normal 2em var(--fonte-android);
   padding: 10px;
 }
 
@@ -130,6 +130,21 @@ main img.pequena {
   display: block;
   margin: auto;
   max-width: 350px;
+}
+
+div.video {
+  background-image: radial-gradient(var(--cor2), var(--cor5));
+  padding: 20px;
+  padding-bottom: 55%;
+  position: relative;
+}
+
+div.video > iframe {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
 }
 
 aside {
